@@ -1,0 +1,25 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    // justify-content: center;
+    row-gap: .5rem;
+    box-shadow: 0 0 2px 1px white;
+    border-radius: 6px;
+    overflow: hidden;
+    padding: 10px;
+    .title{
+        font-size: 1.4rem;
+        font-weight: 600;
+        color: color-mix(in srgb, pink , black 70%);
+    }
+    .description{
+        word-break: break-all;
+        font-size: 1.2rem;
+        font-weight: 500;
+        line-height: 1.2;
+        color: color-mix(in srgb, pink , black 60%);
+    }
+    button{
+        margin: auto 0 0 0;
+    }
+}

@@ -1,0 +1,16 @@
+.register{
+    justify-content: center;
+    display: flex;
+    form{
+        display: flex;
+        flex-direction: column;
+        row-gap: .5rem;
+        width: 40vw;
+        div{
+            font-size: 1.4rem;
+            margin: 0 0 1rem 0;
+            font-weight: 600;
+            color: color-mix(in srgb, pink, black 70%);
+        }
+    }
+}

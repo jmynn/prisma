@@ -1,0 +1,16 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    height: inherit;
+    justify-content: center;
+	.login {
+		padding: 1rem;
+		display: flex;
+        flex-direction: column;
+		row-gap: 1rem;
+		justify-content: space-around;
+		flex-wrap: wrap;
+		align-items: stretch;
+		margin: auto 0;
+	}
+}

@@ -1,0 +1,35 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+html, body{
+	min-height: 100%;
+	height: 100%;
+	width: 100%;
+}
+body {
+	background-color: color-mix(in srgb, white, pink);
+}
+input,
+textarea {
+	border-radius: 6px;
+	padding: 0.5rem;
+	background: color-mix(in srgb, white, lightblue 20%);
+	resize: none;
+	border: 1px solid lightpink;
+	outline: 2px solid white;
+}
+button {
+	width: 100%;
+	padding: 0.5rem 0;
+	text-align: center;
+	border: 1px solid pink;
+	outline: 2px solid white;
+	&:hover {
+		cursor: pointer;
+		opacity: 0.8;
+	}
+	border-radius: 6px;
+	background: white;
+	color: color-mix(in srgb, pink, black 30%);
+}
